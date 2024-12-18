@@ -100,17 +100,6 @@ struct DayStart: Hashable, Equatable, Comparable {
     }
 }
 
-extension Date {
-    func addDays(_ days: Int) -> Date {
-        Calendar.current.date(byAdding: DateComponents(day: days), to: self)
-            ?? self
-    }
-
-    static var tomorrow: Date {
-        return .now.addDays(1)
-    }
-}
-
 #Preview {
     NavigationStack {
 //        QuantQuantScheduleView.makeSample()
