@@ -30,10 +30,28 @@
 		48641FA52D037BAE0086A794 /* SubjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4800B75F2D138D65004A78AA /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Model/TestRecurringDate.swift,
+			);
+			target = 481D80192CFFBAD700EFA422 /* Subject */;
+		};
+		4800B7602D138D65004A78AA /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Model/TestRecurringDate.swift,
+			);
+			target = 48641FA42D037BAE0086A794 /* SubjectTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		4800B7292D133F12004A78AA /* Extensions */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Extensions; sourceTree = "<group>"; };
 		48641FA62D037BAE0086A794 /* SubjectTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = SubjectTests; sourceTree = "<group>"; };
 		48B60B4B2D10D3BB00D3DE09 /* Backend */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Backend; sourceTree = "<group>"; };
-		48B60B4C2D10D3F300D3DE09 /* Frontend */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Frontend; sourceTree = "<group>"; };
+		48B60B4C2D10D3F300D3DE09 /* Frontend */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (4800B75F2D138D65004A78AA /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 4800B7602D138D65004A78AA /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Frontend; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				481D801D2CFFBAD700EFA422 /* SubjectApp.swift */,
+				4800B7292D133F12004A78AA /* Extensions */,
 				48B60B4C2D10D3F300D3DE09 /* Frontend */,
 				48B60B4B2D10D3BB00D3DE09 /* Backend */,
 				481D80232CFFBAD900EFA422 /* Assets.xcassets */,
@@ -108,6 +127,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				4800B7292D133F12004A78AA /* Extensions */,
 				48B60B4B2D10D3BB00D3DE09 /* Backend */,
 				48B60B4C2D10D3F300D3DE09 /* Frontend */,
 			);
